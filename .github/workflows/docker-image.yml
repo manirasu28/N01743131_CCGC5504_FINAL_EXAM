@@ -35,7 +35,7 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./webapp
         push: true
         tags: ${{ env.REGISTRY }}/ramaswamywari63/final-exam:${{ env.IMAGE_TAG }}
         cache-from: type=gha
