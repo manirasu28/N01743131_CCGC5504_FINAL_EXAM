@@ -1,9 +1,0 @@
-replicaCount: 1
-
-image:
-  repository: dockerhub_user/N01743131-nginx
-  tag: "0.1"
-
-service:
-  type: ClusterIP
-  port: 80
